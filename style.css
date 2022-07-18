@@ -1,0 +1,142 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*variable colors*/
+:root{
+  --cyan-color: hsl(179, 62%, 43%);
+  --bright-yellow:hsl(71, 73%, 54%);
+  --light-gray: hsl(204, 43%, 93%);
+  --grayish-blue: hsl(218, 22%, 67%);
+}
+
+.primary-text{
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.secondry-text{
+  color: rgba(224, 225, 228, 0.5);
+}
+
+
+body{
+  background-image:url("../images/favicon-32x32.png");
+  background-color: var(--grayish-blue);
+  background-repeat: no-repeat;
+  background-position: center;
+  font-size: 16px;
+  font-family: 'Karla', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5em;
+}
+
+
+.main-container{
+  max-width: 600px;
+  margin: 40px auto;
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.container{
+  padding: 20px;
+  margin: 20px;
+}
+
+.heading h2{
+  color:  var(--cyan-color);
+  margin-bottom: 20px;
+}
+
+.sub-heading h3{
+  color: var(--bright-yellow);
+  margin-bottom: 10px;
+}
+
+.sub-heading p{
+  color: var(--grayish-blue);
+}
+
+
+/*section grid*/
+.showcase{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+
+.showcase-cyan{
+  padding: 30px;
+  line-height: 2em;
+  color: #fff;
+  background-color: var(--cyan-color);
+}
+
+.showcase-cyan >*:first-child{
+  margin-bottom: 10px;
+}
+
+.btn{
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+  padding: 10px 60px;
+  cursor: pointer;
+  background-color: var(--bright-yellow);
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  border: none;
+  margin-top: 30px;
+}
+.btn:hover{
+  transform: scale(0.98);
+  background-color: ;
+  opacity: 0.8;
+}
+
+.showcase-cyan-faded>*:first-child{
+  margin-bottom: 15px;
+}
+
+.showcase-cyan-faded{
+  background-color: hsl(179, 62%, 43%);
+  opacity: 0.8;
+  color: #fff;
+  padding: 30px;
+}
+
+.faded{
+  opacity: 0.7;
+}
+
+/* footer */
+
+.Attribute{
+  position: relative;
+  bottom:  30px;
+  text-align: center;
+  font-size: 12px;
+  color: #000;
+}
+a{
+  text-decoration: none;
+}
+/*mobile*/
+@media (max-width: 500px) {
+  .main-container{
+    align-items: center;
+    text-align: center;
+  }
+  .showcase{
+    grid-template-columns: 1fr;
+  }
+  .btn{
+    width: 50%;
+  }
+}

@@ -25,7 +25,7 @@ This is a solution to the [Single price grid component challenge on Frontend Men
 
 ### Links
 
-- Solution URL: [GitHub](https://github.com/MUBARAHKAH/single-price-grid-component.git)
+- Solution URL: [GitHub](https://github.com/MUBARAHKAH/single-price-grid.git)
 - Live Site URL: [Live Site](https://mubarahkah.github.io/single-price-grid/)
 
 ## My process

@@ -82,10 +82,11 @@ body{
 }
 
 .btn{
+  font-size: 16px;
   text-align: center;
   display: inline-block;
   width: 100%;
-  padding: 10px 60px;
+  padding: 10px 12px;
   cursor: pointer;
   background-color: var(--bright-yellow);
   color: #fff;
@@ -141,7 +142,8 @@ a{
   }
   
   .btn{
-    width: 60%;
+    width: 80%;
+    font-size: 18px;
   }
   
   .Attribute{

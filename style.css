@@ -132,6 +132,7 @@ a{
   .main-container{
     align-items: center;
     text-align: center;
+    margin: 20px;
   }
   .showcase{
     grid-template-columns: 1fr;

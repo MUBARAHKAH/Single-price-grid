@@ -129,19 +129,23 @@ a{
   text-decoration: none;
 }
 /*mobile*/
-@media (max-width: 500px) {
+@media (max-width: 530px) {
   .main-container{
     align-items: center;
     text-align: center;
     margin: 20px;
   }
+  
   .showcase{
     grid-template-columns: 1fr;
   }
+  
   .btn{
-    width: 50%;
+    width: 60%;
   }
+  
   .Attribute{
     font-size: 10px;
 }
+  
 }
